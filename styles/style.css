@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* header designing */
+.header {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+
+
+}
+
+.header-content {
+
+    text-align: right;
+    margin-right: 230px;
+    margin-left: 845px;
+    padding-bottom: 166px;
+    padding-top: 225px;
+    
+
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 24px;
+    color: #151414;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 24px;
+}
+
+.primary-btn {
+    background-color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    height: 64px;
+    width: 160px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+/* failure section design */
+
+.failure {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: #444343;
+
+}
+
+.failure-list {
+    margin-bottom: 14px;
+}
+
+.material-symbols-outlined {
+    color: #06ff06;
+}
+
+/* plans design */
+
+.plans {
+    margin-top: 150px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.task-img {
+    margin-left: 30px;
+}
+
+.task {
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+
+}
+
+.task-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.task-description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 10px;
+}
+
+.call {
+    margin-top: 150px;
+    margin-bottom: 130px;
+    background-image: url('../images/watch.png'), url('../images/gradient3.png');
+
+    background-blend-mode: lighten;
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+}
+
+.call-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.white-btn {
+    margin-top: 14px;
+    width: 160px;
+    height: 64px;
+    border: 0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+}
+
+.call-items {
+    padding-top: 65px;
+    margin-left: 65px;
+}
+
+/* footer design */
+footer {
+    background-color: #151414;
+    width: 1600px;
+    height: 577px;
+}
+
+.social-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 24px;
+
+}
+
+.social-description {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.info {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.social-icon {
+    text-decoration: none;
+    margin-left: 14px;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.footer-items {
+    display: flex;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-top: 130px;
+}
+
+.email-input {
+    margin-top: 24px;
+    width: 200px;
+    height: 64px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
