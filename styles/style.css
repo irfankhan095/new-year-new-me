@@ -101,7 +101,7 @@ main {
 }
 
 .task-img {
-    margin-left: 30px;
+    margin-left: 50px;
 }
 
 .task {
@@ -114,6 +114,7 @@ main {
 .task-title {
     font-weight: 700;
     font-size: 30px;
+    text-align: center;
 }
 
 .task-description {
@@ -121,6 +122,7 @@ main {
     font-size: 25px;
     color: #737272;
     margin-top: 10px;
+    text-align: center;
 }
 
 .call {
@@ -210,4 +212,6 @@ footer {
     height: 64px;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
+    background-color: #151414;
+    
 }
